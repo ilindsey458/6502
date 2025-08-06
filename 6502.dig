@@ -18,6 +18,10 @@
       <elementName>Clock</elementName>
       <elementAttributes>
         <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>rotation</string>
           <rotation rotation="3"/>
         </entry>
@@ -84,6 +88,10 @@
         <entry>
           <string>Bits</string>
           <int>8</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>dec</intFormat>
         </entry>
       </elementAttributes>
       <pos x="1000" y="80"/>
@@ -170,6 +178,10 @@
         <entry>
           <string>Bits</string>
           <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>dec</intFormat>
         </entry>
       </elementAttributes>
       <pos x="520" y="0"/>
@@ -360,7 +372,7 @@
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="1160" y="80"/>
+      <pos x="1040" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>DriverInvSel</elementName>
@@ -370,7 +382,7 @@
           <int>8</int>
         </entry>
       </elementAttributes>
-      <pos x="1040" y="80"/>
+      <pos x="1160" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -417,6 +429,10 @@
           <string>Bits</string>
           <int>8</int>
         </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>dec</intFormat>
+        </entry>
       </elementAttributes>
       <pos x="780" y="220"/>
     </visualElement>
@@ -430,6 +446,10 @@
         <entry>
           <string>Bits</string>
           <int>8</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>dec</intFormat>
         </entry>
       </elementAttributes>
       <pos x="780" y="600"/>
