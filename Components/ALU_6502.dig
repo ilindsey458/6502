@@ -72,7 +72,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>Out</string>
+          <string>Data</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -115,7 +115,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>C-Out</string>
+          <string>Carry</string>
         </entry>
       </elementAttributes>
       <pos x="1600" y="120"/>
